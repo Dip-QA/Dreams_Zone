@@ -1,0 +1,43 @@
+package Practice_Locators;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class youtube2 
+{
+	public static void main(String[] args) throws InterruptedException {
+		
+System.setProperty("webdriver.chrome.driver","D:\\selenium_imp\\chromedriver_win32\\chromedriver.exe" );
+		
+		WebDriver driver=new ChromeDriver();
+		
+		
+		 Thread.sleep(2000);
+		
+		driver.get("https://www.youtube.com");
+	  Thread.sleep(2000);
+		
+		// to search song 
+	  driver.findElement(By.tagName("input")).sendKeys("kalbhairav aashtak");
+		
+		Thread.sleep(2000);
+		
+		// to click on search button 
+		driver.findElement(By.tagName("button")).click();
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

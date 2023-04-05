@@ -1,0 +1,8 @@
+
+<suite name="Suite">
+  <test  name="Test">
+    <classes>
+      <class name="POM_DDF_TestNg_Baseclass_Utilityclass.Test_Class_TestNG1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

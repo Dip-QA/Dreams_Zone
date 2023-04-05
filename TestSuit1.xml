@@ -1,0 +1,11 @@
+
+<suite name="Suite">
+  <test  name="Test">
+    <classes>
+      <class name="TestNg_Testsuit.Test1"/>
+      <class name="TestNg_Testsuit.Test2"/>
+      <class name="TestNg_Testsuit.Test3"/>
+      <class name="TestNg_1.KeyWord2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

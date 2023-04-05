@@ -1,0 +1,10 @@
+
+<suite name="Suite">
+  <test  name="Test">
+    <classes>
+      <class name="TestNg_1.KeyWord1"/>
+      <class name="TestNg_1.Emaiable_report1"/>
+      <class name="TestNg_1.DependsonMethods"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

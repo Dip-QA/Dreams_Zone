@@ -1,0 +1,17 @@
+
+<suite name="Suite" parallel="tests">
+  <test  name="Test1">
+  <parameter name="BrouserName" value="chrome"/>
+    <classes>
+      <class name="Multi_Brouser_Testing.sample1"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test  name="Test2">
+  <parameter name="BrouserName"  value="firefox"/>
+    <classes>
+      <class name="Multi_Brouser_Testing.sample1"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

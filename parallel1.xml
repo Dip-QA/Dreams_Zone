@@ -1,0 +1,22 @@
+
+<suite name="Suite" parallel="tests">
+  <test  name="Test1">
+  
+        <classes>
+            <class name="Parallel_Testing.sample1"/>
+        </classes>
+   </test> 
+    
+     <test name= "Test2"> 
+        <classes>
+            <class name="Parallel_Testing.sample2"/>
+       </classes>
+    </test>
+    
+      <test name="Test3">
+          <classes>
+                 <class name="Parallel_Testing.sample3"/>
+         </classes>
+      </test> <!-- Test -->
+      
+</suite> <!-- Suite -->
